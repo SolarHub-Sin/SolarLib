@@ -2162,4 +2162,6 @@ do
 	end
 end
 
+print("Loaded!")
+
 return library
