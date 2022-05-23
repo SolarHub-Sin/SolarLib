@@ -552,7 +552,7 @@ do
 				ZIndex = 4,
 				Font = Enum.Font.Gotham,
 				TextColor3 = themes.TextColor,
-				TextSize = 12.000,
+				TextSize = 14.000,
 				TextXAlignment = Enum.TextXAlignment.Left
 			}),
 			utility:Create("ImageButton", {
@@ -675,7 +675,7 @@ do
 				Font = Enum.Font.Gotham,
 				Text = title,
 				TextColor3 = themes.TextColor,
-				TextSize = 12,
+				TextSize = 14,
 				TextTransparency = 0.10000000149012
 			})
 		})
