@@ -12,9 +12,9 @@ local objects = {}
 local themes = {
 	Background = Color3.fromRGB(23, 23, 23), 
 	Glow = Color3.fromRGB(160, 68, 255), 
-	Accent = Color3.fromRGB(10, 10, 10), 
+	Accent = Color3.fromRGB(13, 13, 13), 
 	LightContrast = Color3.fromRGB(20, 20, 20), 
-	DarkContrast = Color3.fromRGB(14, 14, 14),  
+	DarkContrast = Color3.fromRGB(13, 13, 13),  
 	TextColor = Color3.fromRGB(160, 68, 255)
 }
 do
@@ -308,7 +308,7 @@ do
 			AutoButtonColor = false,
 			Font = Enum.Font.Gotham,
 			Text = "",
-			TextSize = 14
+			TextSize = 12
 		}, {
 			utility:Create("TextLabel", {
 				Name = "Title",
